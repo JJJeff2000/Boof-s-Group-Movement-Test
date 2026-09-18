@@ -26,12 +26,14 @@ func _physics_process(_delta):
 
 func _delta_player_movement():
 	if Input.is_action_pressed("ui_right"):
+		$Sprite2D.flip_h = false
 		velocity.x = Base_Speed
 		if not is_on_floor():
 			pass
 		else:
 			pass
 	elif Input.is_action_pressed("ui_left"):
+		$Sprite2D.flip_h = true
 		velocity.x = -Base_Speed
 		if not is_on_floor():
 			pass

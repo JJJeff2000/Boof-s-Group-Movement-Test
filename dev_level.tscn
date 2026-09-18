@@ -2,11 +2,10 @@
 
 [ext_resource type="Texture2D" uid="uid://cou7weoccago2" path="res://art/Screenshot 2026-09-18 164929.png" id="1_if7o0"]
 [ext_resource type="PackedScene" uid="uid://laij4cwcev7h" path="res://player.tscn" id="2_xfdtl"]
+[ext_resource type="Texture2D" uid="uid://b5qhjdnf52ix6" path="res://art/carl_wheezer_png_by_kylewithem_dhwfwhj-pre.png" id="3_xfdtl"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_yf5fn"]
 size = Vector2(1182, 24)
-
-[sub_resource type="CurveTexture" id="CurveTexture_g4v7s"]
 
 [node name="Dev_Level" type="Node2D" unique_id=1216210560]
 
@@ -28,5 +27,6 @@ shape = SubResource("RectangleShape2D_yf5fn")
 offset_left = -10.0
 offset_top = 480.0
 offset_right = 1180.0
-offset_bottom = 520.0
-texture = SubResource("CurveTexture_g4v7s")
+offset_bottom = 594.0
+texture = ExtResource("3_xfdtl")
+expand_mode = 1
